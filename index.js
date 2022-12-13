@@ -1,6 +1,7 @@
 const modalCards = [...document.querySelectorAll(".modal-card")];
 const closeModalBtns = [...document.querySelectorAll(".close-modal-btn")];
-const mobileNavLinks = [...document.querySelectorAll(".mobile-nav-li")];
+// const mobileNavLinks = [...document.querySelectorAll(".mobile-nav-li")];
+const mobileNavLinks = [...document.querySelectorAll(".nav-link")];
 
 const hamburgerMenuIcon = document.querySelector(".hamburger-menu-icon");
 const privacyModalLink = document.querySelector(".privacy-modal-link");

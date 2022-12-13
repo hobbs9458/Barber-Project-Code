@@ -625,8 +625,8 @@ h3 {
 
 .modal-closing-btn-icon {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0.5rem;
+  right: 1rem;
   margin: 0.25rem;
   width: 33px;
   height: 33px;
@@ -680,16 +680,18 @@ h3 {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   margin: 0 auto;
+  display: inline-block;
 }
 
 .nav-mobile ul li:last-child {
   padding-bottom: 0;
 }
 
-.nav-modal-btn {
+.mobile-nav-li .nav-modal-btn {
   padding-bottom: 0;
   width: 185px;
   height: 59px;
+  display: flex;
 }
 
 /* MEDIA QUERIES */
