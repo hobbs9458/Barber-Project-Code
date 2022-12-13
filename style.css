@@ -193,7 +193,7 @@ h3 {
 .hero-section {
   height: calc(100vh + 30px);
   width: 100%;
-  background-image: url(./images/optimized/hero-small-493w.jpg);
+  background-image: url("./images/optimized/hero-small-493w.jpg");
   background-color: #1e1e1e;
   background-repeat: no-repeat;
   grid-column: 1/-1;
@@ -361,7 +361,7 @@ h3 {
   grid-column: 1 / -1;
   position: relative;
   min-height: 425px;
-  background-image: url(./images/optimized/about-834w.jpg);
+  background-image: url("./images/optimized/about-834w.jpg");
   background-position-x: -100px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -467,7 +467,7 @@ h3 {
 .contact-section {
   padding-top: 2rem;
   grid-column: 1 / -1;
-  background-image: url(./images/optimized/contact-375w.jpg);
+  background-image: url("./images/optimized/contact-375w.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -841,7 +841,7 @@ h3 {
     margin-left: 6rem;
   }
   .hero-section {
-    background-image: url("/images/optimized/hero-large-2002w.jpg");
+    background-image: url("./images/optimized/hero-large-2002w.jpg");
     background-position-y: 0px;
   }
 
@@ -903,7 +903,7 @@ h3 {
   }
 
   .about-container {
-    background-image: url(./images/optimized/about-1440w.jpg);
+    background-image: url("./images/optimized/about-1440w.jpg");
   }
 
   .customer-reviews-section {
