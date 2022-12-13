@@ -819,6 +819,10 @@ h3 {
   .contact-section {
     background-image: url("./images/optimized/contact-834w.jpg");
   }
+
+  .privacy-and-terms-card {
+    width: 715px;
+  }
 }
 
 @media (min-width: 975px) {
