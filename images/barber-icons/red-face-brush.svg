@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="43.407715"
+   height="104.208"
+   viewBox="0 0 43.407713 104.208"
+   sodipodi:docname="original.eps"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="2.9197671"
+     inkscape:cx="125.35246"
+     inkscape:cy="40.927922"
+     inkscape:window-width="1804"
+     inkscape:window-height="876"
+     inkscape:window-x="2027"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g12" />
+  <g
+     id="g10"
+     inkscape:groupmode="layer"
+     inkscape:label="Page 1"
+     transform="matrix(1.3333333,0,0,-1.3333333,-351.25208,327.8944)">
+    <g
+       id="g12"
+       transform="scale(0.1)">
+      <g
+         id="g804-0"
+         inkscape:export-filename="shaving-brush-blue.png"
+         inkscape:export-xdpi="460.61719"
+         inkscape:export-ydpi="460.61719"
+         transform="translate(597.16843,-131.57196)"
+         style="fill:#032878;fill-opacity:1">
+        <path
+           d="m 2203.83,2090.23 h -101.89 l -18.29,-32.55 h 240.37 l -18.3,32.55 h -101.89"
+           style="fill:#c20114;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path288-7" />
+        <path
+           d="m 2083.65,2037.27 v -193 c 0,0 57.59,-35.05 120.18,-35.05 62.6,0 120.19,35.05 120.19,35.05 v 193 h -120.19 -120.18"
+           style="fill:#c20114;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path290-7"
+           inkscape:export-filename="blue-brush.svg"
+           inkscape:export-xdpi="211.21556"
+           inkscape:export-ydpi="211.21556" />
+        <path
+           d="m 2163.37,2590.78 c 0,0 189.82,-141.88 199.41,-329.78 0,0 -7.67,-130.38 -70.94,-141.89 h -195.57 c 0,0 -63.84,65.19 -58.76,176.4 5.07,111.21 175.72,157.22 125.86,295.27"
+           style="fill:#c20114;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path292-7" />
+      </g>
+    </g>
+  </g>
+</svg>

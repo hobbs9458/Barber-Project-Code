@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Logan Hobbs" />
+<meta
+  name="description"
+  content="This barber shop website's main purpose is to provide an easy convenient way to book a haircut at Philip's Cut's" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+    <title>Philips Cuts</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar-contents-wrap">
+        <a href="#home-hero-section">
+          <div class="logo-wrap">
+            <img
+              srcset="./images/logo-mobile-149w.svg 149w, ./images/logo-xl-229w.svg 229w"
+              sizes="(max-width: 824px) 149px, 229px"
+              src="./images/logo-xl-229w"
+              alt="Philip's Cuts Logo"
+            />
+          </div>
+        </a>
+
+        <img
+          src="./images/hamburger-icon-menu.svg"
+          class="hamburger-menu-icon"
+          alt="Hamburger menu icon"
+          height="37"
+          width="22"
+          style="margin-right: 20px"
+          ;
+        />
+
+        <!-- ul FOR THE TABLET AND DESKTOP VERSION -->
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#services-section">Services</a></li>
+          <li><a class="nav-link" href="#about-section-linked">About</a></li>
+          <li><a class="nav-link" href="#contact-section-linked">Contact</a></li>
+          <li><a class="book-btn-large" href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact" target="_blank">Book Now</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- HERO  -->
+    <section id="home-hero-section" class="hero-section">
+      <div class="hero-max-width-wrap">
+        <div class="hero-main-component">
+          <h1 class="hero-header">Be handsome.</h1>
+          <h3 class="hero-subheader">Book a hair cut today.</h3>
+          <a class="book-btn-mobile" href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact" target="_blank">Book Now </a>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES -->
+    <section id="services-section" class="services-section">
+      <img
+        class="blue-razor-face"
+        src="./images/barber-icons/blue-razor-face.svg"
+        alt="Blue Face Razor"
+        width="125"
+        height="161"
+        style="transform: rotate(180deg) scaleY(-1)"
+      />
+      
+      <h2  class="services-header">Barber Services</h2>
+      <div class="services-cards-wrap">
+        <div class="services-card">
+          <div class="services-card-layer services-card-upper-layer">
+            <img
+              src="./images/barber-icons/scissors.svg"
+              class="services-card-icon scissors-icon"
+              alt="Barber Scissors"
+              width="116"
+              height="117"
+              style="transform: rotate(45deg)"
+              ;
+            />
+            <h2
+              class="services-card-header text-center"
+            >
+              Haircut
+            </h2>
+            <p class="text-center services-card-p">
+              llis efficitur placerat. Phasellus at erat imperdiet, ultricies odio
+              volutpat, tristique neque. Phasellus at erat imperdiet, ultricies
+              odio volutpat, tristique neque.
+            </p>
+          </div>
+          <div class="services-card-layer services-card-lower-layer"></div>
+        </div>
+
+        <div class="services-card">
+          <div class="services-card-layer services-card-upper-layer">
+            <img
+              src="./images/barber-icons/moustache.svg"
+              class="services-card-icon moustache-icon"
+              alt="Moustache"
+              width="159"
+              height="39"
+              ;
+            />
+            <h2
+              class="services-card-header text-center"
+            >
+              Shave
+            </h2>
+            <p class="text-center services-card-p">
+              llis efficitur placerat. Phasellus at erat imperdiet, ultricies odio
+              volutpat, tristique neque. Phasellus at erat imperdiet, ultricies
+              odio volutpat, tristique neque.
+            </p>
+          </div>
+          <div class="services-card-layer services-card-lower-layer"></div>
+        </div>
+        <div class="services-card">
+          <div class="services-card-layer services-card-upper-layer">
+            <img
+              class="services-card-icon electric-razor-icon"
+              src="./images/barber-icons/electric-razor.svg"
+              alt="Electric Razor"
+              width="56"
+              height="128"
+              style="transform: rotate(90deg)"
+              ;
+            />
+            <h2
+              class="services-card-header text-center"
+            >
+              Fade
+            </h2>
+            <p class="text-center services-card-p">
+              llis efficitur placerat. Phasellus at erat imperdiet, ultricies odio
+              volutpat, tristique neque. Phasellus at erat imperdiet, ultricies
+              odio volutpat, tristique neque.
+            </p>
+          </div>
+          <div class="services-card-layer services-card-lower-layer"></div>
+        </div>
+      </div>
+      <img
+        class="red-comb"
+        src="./images/barber-icons/comb-red.svg"
+        alt="Red Comb"
+        width="91.304993"
+        height="76.307755"
+        style="transform: rotate(360deg) scaleY(-1)"
+      />
+    </section>
+    <!-- About -->
+    <section id="about-section" class="about-container">
+      <span id="about-section-linked"></span>
+      <h2 class="about-header text-center">Meet Philip</h2>
+      <p class="about-p">
+        Nulla quam est, elementum vitae est non, interdum commodo libero. In
+        convallis efficitur placerat. Phasellus at erat imperdiet, ultricies
+        odio volutpat, tristique neque. Nam a ex lacinia, vestibulum mi quis,
+        consequat lorem. Nam vestibulum sapien rhoncus, condimentum justo sit
+        amet, interdum massa. Proin sit amet enim sed diam euismod fermentum.
+        Morbi gravida, turpis eu ultricies dapibus, mi leo egestas nisi, non
+        ultrices nibh purus ac velit.
+      </p>
+    </section>
+   
+    <!-- reviews -->
+    <div class="review-wrapper">
+      <img
+      class="blue-razor-review"
+      src="./images/barber-icons/blue-razor.svg"
+      alt="Blue Razor"
+      width="87"
+      height="142"
+      style="
+        transform: rotate(231deg);
+      "
+      />
+      <section class="customer-reviews-section">
+        <h2 class="customer-review-section-header text-center">
+          Customer Reviews
+        </h2>
+        <div class="customer-review-cards-wrap">
+
+        
+          <div class="customer-review-card">
+            <div class="customer-review-stars">
+              <img
+                class="yellow-star"
+                src="./images/yellow-star.png"
+                width="25"
+                height="25"
+                alt="Yellow Star"
+              />
+              <img
+                class="yellow-star"
+                src="./images/yellow-star.png"
+                width="25"
+                height="25"
+                alt="Yellow Star"
+              />
+              <img
+                class="yellow-star"
+                src="./images/yellow-star.png"
+                width="25"
+                height="25"
+                alt="Yellow Star"
+              />
+              <img
+                class="yellow-star"
+                src="./images/yellow-star.png"
+                width="25"
+                height="25"
+                alt="Yellow Star"
+              />
+              <img
+                class="yellow-star"
+                src="./images/yellow-star.png"
+                width="25"
+                height="25"
+                alt="Yellow Star"
+              />
+            </div>
+            <p class="customer-review-p">
+              Nulla quam est, elementum vitae est non, interdum commodo libero. In
+              convallis efficitur placerat. 
+            </p>
+            <p class="customer-review-name">John Snow</p>
+          </div>
+
+          <div class="customer-review-card">
+            <div class="customer-review-stars">
+              <img
+              class="yellow-star"
+              src="./images/yellow-star.png"
+              width="25"
+              height="25"
+              alt="Yellow Star"
+            />
+            <img
+              class="yellow-star"
+              src="./images/yellow-star.png"
+              alt="Yellow Star"
+              width="25"
+              height="25"
+            />
+            <img
+              class="yellow-star"
+              src="./images/yellow-star.png"
+              alt="Yellow Star"
+              width="25"
+              height="25"
+            />
+            <img
+              class="yellow-star"
+              src="./images/yellow-star.png"
+              alt="Yellow Star"
+              width="25"
+              height="25"
+            />
+            <img
+              class="yellow-star"
+              src="./images/yellow-star.png"
+              alt="Yellow Star"
+              width="25"
+              height="25"
+            />
+            </div>
+            <p class="customer-review-p">
+              Nulla quam est, elementum vitae est non, interdum commodo libero. In
+              convallis efficitur placerat. 
+            </p>
+            <p class="customer-review-name">John Snow</p>
+          </div>
+          <div class="customer-review-card">
+            <div class="customer-review-stars">
+              <img
+              class="yellow-star"
+              src="./images/yellow-star.png"
+              alt="Yellow Star"
+              width="25"
+              height="25"
+            />
+            <img
+              class="yellow-star"
+              src="./images/yellow-star.png"
+              alt="Yellow Star"
+              width="25"
+              height="25"
+            />
+            <img
+              class="yellow-star"
+              src="./images/yellow-star.png"
+              alt="Yellow Star"
+              width="25"
+              height="25"
+            />
+            <img
+              class="yellow-star"
+              src="./images/yellow-star.png"
+              alt="Yellow Star"
+              width="25"
+              height="25"
+            />
+            <img
+              class="yellow-star"
+              src="./images/yellow-star.png"
+              alt="Yellow Star"
+              width="25"
+              height="25"
+            />
+            </div>
+            <p class="customer-review-p">
+              Nulla quam est, elementum vitae est non, interdum commodo libero. In
+              convallis efficitur placerat. 
+            </p>
+            <p class="customer-review-name">John Snow</p>
+          </div>
+        </div>
+      </section>
+      <img
+      class="red-brush"
+      src="./images/barber-icons/red-face-brush.svg"
+      alt="Red Face Brush"
+      width="72"
+      height="175"
+      style="transform: rotate(130deg);"
+      />
+    </div>
+    <!-- Contact -->
+    <div id="contact-section" class="contact-section-wrap">
+      <span id="contact-section-linked"></span>
+      <section class="contact-section">
+        <div class="contact-text-container">
+          <p class="location">Location:
+              <address class="address">701 E Main St suite #7,<br>
+              Russellville, AR 72801</address>
+          </p>
+          <p class="phone"><span class="phone-text">Phone:</span><br>479-747-5016</p>
+          <table class="hours-table">
+              <thead>
+                  <tr>
+                      <th class="hours-table-header" colspan="2">Hours of Operation</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="hours-table-row">
+                      <td class="hours-table-data">Monday</td>
+                      <td class="hours-table-data">Closed</td>
+                  </tr>
+                  <tr class="hours-table-row">
+                      <td class="hours-table-data">Tuesday</td>
+                      <td class="hours-table-data">Closed</td>
+                  </tr>
+                  <tr class="hours-table-row">
+                      <td class="hours-table-data">Wednesday</td>
+                      <td class="hours-table-data">8:30am-5:00pm</td>
+                  </tr>
+                  <tr class="hours-table-row">
+                      <td class="hours-table-data">Thursday</td>
+                      <td class="hours-table-data">8:30am-5:00pm</td>
+                  </tr>
+                  <tr class="hours-table-row">
+                      <td class="hours-table-data">Friday</td>
+                      <td class="hours-table-data">8:00am-5:00pm</td>
+                  </tr>
+                  <tr class="hours-table-row">
+                      <td class="hours-table-data">Saturday</td>
+                      <td class="hours-table-data">7:00am-12:00pm</td>
+                  </tr>
+                  <tr class="hours-table-row">
+                      <td class="hours-table-data">Sunday</td>
+                      <td class="hours-table-data">Closed</td>
+                  </tr>
+              </tbody>
+          </table>
+          <a class="book-btn-mobile btn-contact" href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact" target="_blank">Book Now </a>
+        </div>
+      </section>
+      <!-- map -->
+      <iframe title="map" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.0958742120615!2d-93.12737708475215!3d35.27874248029023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cc536e80ee0837%3A0xa58274a4214dd9e5!2sPhilip&#39;s%20Cuts!5e0!3m2!1sen!2sus!4v1670822972028!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <footer class="footer">
+        <ul class="footer-ul">
+            <li class="footer-li"><a href="#services-section">Services</a></li>
+            <li class="footer-li"><a href="#about-section-linked">About</a></li>
+            <li class="footer-li privacy-modal-link"><a href="#">Privacy</a></li>
+        </ul>
+    </footer>
+    <!-- OVERLAY -->
+    <div class="modal-overlay hidden">
+      <!-- PRIVACY POLICY AND TERMS MODAL CARD -->
+      <div class="modal-card privacy-and-terms-card hidden">
+        <button class="modal-closing-btn-icon close-modal-btn">
+          <img
+            src="./images/modal-closing-btn-icon.svg"
+            alt="Close Menu Button (X)"
+            height="33"
+            width="33"
+          />
+        </button>
+
+        <h2 class="privacy-and-terms-header">GDPR Privacy Policy of Philip’s Cuts</h2>
+
+        <p class="privacy-and-terms-p privacy-and-terms-last-update">Last updated: December 4, 2022</p>
+
+        <h3 class="privacy-and-terms-sub-header">
+          Definitions
+        </h3>
+
+        <ul class="definitions-ul">
+
+          <li class="definitions-li">
+            <span class="defitions-li-text">
+              Philip’s Cuts Philip’s Cuts means Philip’s Cuts LLC, located at 701 E Main St suite #7, Russellville, AR 72801.
+            </span>
+          </li>
+          <li class="definitions-li">
+            <span class="defitions-li-text">
+              GDPR General Data Protection Regulation Act.
+            </span>
+          </li>
+          <li class="definitions-li">
+            <span class="defitions-li-text">
+              Data Controller Data Controller means the natural or legal person who (either alone or jointly or in common with other persons) determines the purposes for which and the manner in which any personal information are, or are to be, processed.
+            </span>
+          </li>
+          <li class="definitions-li">
+            <span class="defitions-li-text">
+              Data Processor Data Processor means any natural or legal person who processes the data on behalf of the Data Controller.
+            </span>
+          </li>
+          <li class="definitions-li">
+            <span class="defitions-li-text">
+              Data Subject Data Subject is any living individual who is using our Service and is the subject of Personal Data.
+            </span>
+          </li>
+        </ul>
+
+        <ol type="1">
+            <li class="privacy-and-terms-sub-header">Principles for processing personal data</li>
+            <p class="list-privacy-p">Our principles for processing personal data are:</p>
+              <ul>
+                <li class="definitions-li">
+                  <span class="defitions-li-text">
+                    Fairness and lawfulness. When we process personal data, the individual rights of the Data Subjects must be protected. All personal data must be collected and processed in a legal and fair manner.
+                  </span>
+                </li>
+
+                <li class="definitions-li">
+                  <span class="defitions-li-text">
+                    Restricted to a specific purpose. The personal data of Data Subject must be processed only for specific purposes.
+                  </span>
+                </li>
+
+                <li class="definitions-li">
+                  <span class="defitions-li-text">
+                    Transparency. The Data Subject must be informed of how his/her data is being collected, processed and used.
+                  </span>
+                </li>
+              </ul>
+            <li class="privacy-and-terms-sub-header">What personal data we collect and process</li>
+            <p class="list-privacy-p">Philip’s Cuts collects several different types of personal data for various purposes. Personal Data may include, but is not limited to:</p>
+              <ul>
+                <li class="definitions-li">
+                  <span class="defitions-li-text">
+                    Email address
+                  </span>
+                </li>
+
+                <li class="definitions-li">
+                  <span class="defitions-li-text">
+                    First name and last name</span>
+                </li>
+
+                <li class="definitions-li">
+                  <span class="defitions-li-text">Phone number</span>
+                </li>
+
+                <li class="definitions-li">
+                  <span class="defitions-li-text">Address, State, Province, ZIP/Postal code, City</span>
+                </li>
+              </ul>
+            <li class="privacy-and-terms-sub-header">How we use the personal data</li>
+            <p class="list-privacy-p">Philip’s Cuts uses the collected personal data for various purposes:</p>
+              <ul>
+                <li class="definitions-li">
+                  <span class="defitions-li-text">
+                    To provide you with services</span>
+                </li>
+
+                <li class="definitions-li">
+                  <span class="defitions-li-text">
+                    To notify you about changes to our services and/or products</span>
+                </li>
+
+                <li class="definitions-li">
+                  <span class="defitions-li-text">To provide customer support</span>
+                </li>
+
+                <li class="definitions-li">
+                  <span class="defitions-li-text">To gather analysis or valuable information so that we can improve our services</span>
+                </li>
+
+                <li class="definitions-li">
+                  <span class="defitions-li-text">To detect, prevent and address technical issues</span>
+                </li>
+              </ul>
+              <li class="privacy-and-terms-sub-header">Legal basis for collecting and processing personal data</li>
+              <p class="list-privacy-p">Philip’s Cuts legal basis for collecting and using the personal data described in this Data Protection Policy depends on the personal data we collect and the specific context in which we collect the information:</p>
+                <ul>
+                  <li class="definitions-li">
+                    <span class="defitions-li-text">
+                      Philip’s Cuts needs to perform a contract with you               </span>
+                  </li>
+  
+                  <li class="definitions-li">
+                    <span class="defitions-li-text">
+                      You have given Philip’s Cuts permission to do so</span>
+                  </li>
+  
+                  <li class="definitions-li">
+                    <span class="defitions-li-text">Processing your personal data is in Philip’s Cuts legitimate interests</span>
+                  </li>
+                  <li class="definitions-li">
+                    <span class="defitions-li-text">Philip’s Cuts needs to comply with the law</span>
+                  </li>
+                </ul>   
+                <li class="privacy-and-terms-sub-header">Retention of personal data</li>
+                <p class="list-privacy-p">Philip’s Cuts will retain your personal information only for as long as is necessary for the purposes set out in this Data Protection Policy.</p>
+                <p class="list-privacy-p">Philip’s Cuts will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.</p>
+                <li class="privacy-and-terms-sub-header">Data protection rights</li>
+                <p class="list-privacy-p">If you are a resident of the European Economic Area (EEA), you have certain data protection rights. If you wish to be informed what personal data we hold about you and if you want it to be removed from our systems, please contact us.</p>
+                <p class="list-privacy-p">In certain circumstances, you have the following data protection rights:</p>
+                  <ul>
+                    <li class="definitions-li">
+                      <span class="defitions-li-text">
+                        The right to access, update or to delete the information we have on you          </span>
+                    </li>
+    
+                    <li class="definitions-li">
+                      <span class="defitions-li-text">
+                        The right of rectification</span>
+                    </li>
+    
+                    <li class="definitions-li">
+                      <span class="defitions-li-text">The right to object</span>
+                    </li>
+                    <li class="definitions-li">
+                      <span class="defitions-li-text">The right of restriction</span>
+                    </li>
+                    <li class="definitions-li">
+                      <span class="defitions-li-text">The right to data portability</span>
+                    </li>
+                    <li class="definitions-li">
+                      <span class="defitions-li-text">The right to withdraw consent</span>
+                    </li>
+                  </ul>       
+        </ol>
+
+
+        
+        <h2 class="privacy-and-terms-header">Terms and Conditions ("Terms")</h2>
+        <p class="privacy-and-terms-p privacy-and-terms-last-update">Last updated: December 4, 2022</p>
+        <p class="list-privacy-p">Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the <b style="color: red;">CLIENT URL GOES HERE</b> website operated by Philip’s Cuts ("us", "we", or "our").</p>
+        <p class="list-privacy-p">Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
+        <p class="privacy-and-terms-p">By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.</p>
+        <h3 class="privacy-and-terms-sub-header">Links To Other Web Sites</h3>
+        <p class="list-privacy-p">Our Service may contain links to third-party web sites or services that are not owned or controlled by Philip’s Cuts.</p>
+        <p class="list-privacy-p">Philip’s Cuts has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Philip’s Cuts shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+        <h3 class="privacy-and-terms-sub-header">Termination</h3>
+        <p class="list-privacy-p">We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
+        <p class="list-privacy-p">All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.</p>
+        <h3 class="privacy-and-terms-sub-header">Changes</h3>
+        <p class="list-privacy-p">We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days’ notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
+        <h3 class="privacy-and-terms-sub-header">Contact Us</h3>
+        <p class="list-privacy-p">If you have any questions about these Terms, please contact us.</p>
+        <a class="book-btn-mobile close-modal close-modal-btn">Close</a>
+
+
+      </div>
+            <!-- MODAL NAV MODAL CARD -->
+      <div class="modal-card modal-nav">
+        <nav  class="nav-mobile">
+          <button class="modal-closing-btn-icon close-modal-btn mobile-x-nav">
+            <img
+              src="./images/barber-icons/white-x-icon-mobile.svg"
+              alt="Close Menu Button (X)"
+              height="33"
+              width="33"
+            />
+          </button>
+          <ul>
+            <li class="mobile-nav-li"><a class="nav-link" href="#services-section">Services</a></li>
+            <li class="mobile-nav-li"><a class="nav-link" href="#about-section-linked">About</a></li>
+            <li class="mobile-nav-li"><a class="nav-link" href="#contact-section-linked">Contact</a></li>
+            <li class="mobile-nav-li"><a class="book-btn-mobile nav-modal-btn" href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact" target="_blank">Book Now</a></li>
+          </ul>
+      </nav>
+      </div>
+    </div>
+
+  </body>
+</html>
+
