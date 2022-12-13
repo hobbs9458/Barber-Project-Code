@@ -649,10 +649,16 @@ h3 {
 
 /* modal nav */
 
+.modal-nav {
+  width: 85%;
+  padding: 0;
+  margin: 2rem auto;
+}
+
 .nav-mobile {
   background-color: var(--primary);
-  width: 80%;
-  margin: 10% auto;
+  width: 95%;
+  margin: 0 auto;
   border-radius: 5px;
   position: relative;
   max-width: 600px;
