@@ -150,6 +150,7 @@ h3 {
   align-items: center;
   width: 100%;
   max-width: 1750px;
+  padding: 0 1rem;
 }
 .nav-list {
   display: none;
