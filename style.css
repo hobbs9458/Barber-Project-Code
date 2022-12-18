@@ -189,6 +189,12 @@ h3 {
   cursor: pointer;
 }
 
+.hamburger-btn {
+  height: 37px;
+  width: 22px;
+  margin-right: 20px;
+}
+
 /* HERO */
 .hero-section {
   height: calc(100vh + 30px);
@@ -211,7 +217,7 @@ h3 {
   margin-top: 16rem;
   margin-left: 20px;
   width: 250px;
-  height: 120px;
+  height: 150px;
 }
 
 .hero-header,
@@ -224,6 +230,7 @@ h3 {
 }
 .hero-subheader {
   margin-bottom: 1.5rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .book-btn-mobile,
@@ -652,7 +659,7 @@ h3 {
 .modal-nav {
   width: 85%;
   padding: 0;
-  margin: 2rem auto;
+  margin: 8rem auto;
 }
 
 .nav-mobile {
@@ -687,7 +694,7 @@ h3 {
   padding-bottom: 0;
 }
 
-.mobile-nav-li .nav-modal-btn {
+.mobile-nav-li .nav-modal-booking-btn {
   padding-bottom: 0;
   width: 185px;
   height: 59px;
@@ -729,7 +736,7 @@ h3 {
 
 /* 745 */
 @media (min-width: 825px) {
-  .hamburger-menu-icon {
+  .hamburger-btn {
     display: none;
   }
 
@@ -753,6 +760,10 @@ h3 {
 
   .navbar {
     height: 100px;
+  }
+
+  .hero-main-component {
+    height: 250px;
   }
 
   .book-btn-mobile {

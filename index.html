@@ -8,13 +8,13 @@
 <meta
   name="description"
   content="This barber shop website's main purpose is to provide an easy convenient way to book a haircut at Philip's Cut's" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+  rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
     <title>Philips Cuts</title>
   </head>
@@ -32,17 +32,17 @@
             />
           </div>
         </a>
-
-        <img
-          src="./images/hamburger-icon-menu.svg"
-          class="hamburger-menu-icon"
-          alt="Hamburger menu icon"
-          height="37"
-          width="22"
-          style="margin-right: 20px"
-          ;
-        />
-
+        <button class="hamburger-btn">
+          <img
+            src="./images/hamburger-icon-menu.svg"
+            class="hamburger-menu-icon"
+            alt="Hamburger menu icon"
+            height="37"
+            width="22"
+            tabindex="0"
+            ;
+          />
+      </button>
         <!-- ul FOR THE TABLET AND DESKTOP VERSION -->
         <ul class="nav-list">
           <li><a class="nav-link" href="#services-section">Services</a></li>
@@ -57,7 +57,7 @@
       <div class="hero-max-width-wrap">
         <div class="hero-main-component">
           <h1 class="hero-header">Be handsome.</h1>
-          <h3 class="hero-subheader">Book a hair cut today.</h3>
+          <p class="hero-subheader">Book a hair cut today.</p>
           <a class="book-btn-mobile" href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact" target="_blank">Book Now </a>
         </div>
       </div>
@@ -399,7 +399,8 @@
     <!-- OVERLAY -->
     <div class="modal-overlay hidden">
       <!-- PRIVACY POLICY AND TERMS MODAL CARD -->
-      <div class="modal-card privacy-and-terms-card hidden">
+      <div class="modal-card privacy-and-terms-card hidden" role="dialog"
+      aria-modal="true" >
         <button class="modal-closing-btn-icon close-modal-btn">
           <img
             src="./images/modal-closing-btn-icon.svg"
@@ -584,26 +585,29 @@
         <p class="list-privacy-p">We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days’ notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
         <h3 class="privacy-and-terms-sub-header">Contact Us</h3>
         <p class="list-privacy-p">If you have any questions about these Terms, please contact us.</p>
-        <a class="book-btn-mobile close-modal close-modal-btn">Close</a>
+        <button  class="book-btn-mobile close-modal close-modal-btn">Close</button>
 
 
       </div>
             <!-- MODAL NAV MODAL CARD -->
-      <div class="modal-card modal-nav hidden">
-        <nav  class="nav-mobile">
+      <div class="modal-card modal-nav hidden"  role="dialog"
+      aria-modal="true"
+      >
+        <nav  class="nav-mobile" >
           <button class="modal-closing-btn-icon close-modal-btn mobile-x-nav">
             <img
               src="./images/barber-icons/white-x-icon-mobile.svg"
               alt="Close Menu Button (X)"
               height="33"
               width="33"
+              class="mobile-nav-closing-icon"
             />
           </button>
           <ul>
-            <li class="mobile-nav-li"><a class="nav-link" href="#services-section">Services</a></li>
+            <li class="mobile-nav-li"><a class="nav-link service-link" href="#services-section">Services</a></li>
             <li class="mobile-nav-li"><a class="nav-link" href="#about-section-linked">About</a></li>
             <li class="mobile-nav-li"><a class="nav-link" href="#contact-section-linked">Contact</a></li>
-            <li class="mobile-nav-li"><a class="book-btn-mobile nav-modal-btn" href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact" target="_blank">Book Now</a></li>
+            <li class="mobile-nav-li"><a class="book-btn-mobile nav-modal-booking-btn" href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact" target="_blank">Book Now</a></li>
           </ul>
       </nav>
       </div>

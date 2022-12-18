@@ -1,9 +1,9 @@
 const modalCards = [...document.querySelectorAll(".modal-card")];
 const closeModalBtns = [...document.querySelectorAll(".close-modal-btn")];
-// const mobileNavLinks = [...document.querySelectorAll(".mobile-nav-li")];
 const mobileNavLinks = [...document.querySelectorAll(".nav-link")];
-
-const hamburgerMenuIcon = document.querySelector(".hamburger-menu-icon");
+const mobileXNav = document.querySelector(".mobile-x-nav");
+const navModalBookingBtn = document.querySelector(".nav-modal-booking-btn");
+const hamburgerMenuIcon = document.querySelector(".hamburger-btn");
 const privacyModalLink = document.querySelector(".privacy-modal-link");
 const privacyAndTermsCard = document.querySelector(".privacy-and-terms-card");
 const modalOverlay = document.querySelector(".modal-overlay");
@@ -20,9 +20,20 @@ closeModalBtns.forEach((btn) => {
   });
 });
 
-hamburgerMenuIcon.addEventListener("click", (e) => {
+const openMobileNav = (e) => {
   modalOverlay.classList.remove("hidden");
   modalNav.classList.remove("hidden");
+  mobileXNav.focus();
+};
+
+hamburgerMenuIcon.addEventListener("click", (e) => {
+  openMobileNav();
+});
+
+hamburgerMenuIcon.addEventListener("keyup", (e) => {
+  if (e.keyCode === 13) {
+    openMobileNav();
+  }
 });
 
 privacyModalLink.addEventListener("click", (e) => {
@@ -36,6 +47,13 @@ mobileNavLinks.forEach((navLink) => {
 
 modalOverlay.addEventListener("click", (e) => {
   if (e.target.classList.contains("modal-overlay")) {
+    closeOverlay();
+  }
+});
+
+navModalBookingBtn.addEventListener("click", closeOverlay);
+navModalBookingBtn.addEventListener("keyup", (e) => {
+  if (e.keyCode === 13) {
     closeOverlay();
   }
 });
