@@ -307,6 +307,8 @@ h3 {
   margin-left: 30px;
   border: 1px solid hsla(221, 95%, 24%, 0.54);
   box-shadow: -4px 4px 10px rgba(3, 40, 120, 0.49);
+  -webkit-box-shadow: -4px 4px 10px rgba(3, 40, 120, 0.49);
+  -moz-box-shadow: -4px 4px 10px rgba(3, 40, 120, 0.49);
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -320,6 +322,8 @@ h3 {
   z-index: 1;
   background: var(--primary);
   box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .services-card-p {
@@ -458,6 +462,8 @@ h3 {
   justify-content: center;
   align-items: center;
   box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .customer-review-stars {
   margin-bottom: 0.2rem;
@@ -562,6 +568,9 @@ h3 {
   margin: 0 auto 2rem;
   text-align: center;
   box-shadow: -2px 4px 4px rgb(0 0 0 / 25%);
+  -webkit-box-shadow: -2px 4px 4px rgb(0 0 0 / 25%);
+  -moz-box-shadow: -2px 4px 4px rgb(0 0 0 / 25%);
+
   border-radius: 5px;
 
   padding: 2rem 1rem;
