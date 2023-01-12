@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Logan Hobbs" />
-<meta
-  name="description"
-  content="This barber shop website's main purpose is to provide an easy convenient way to book a haircut at Philip's Cut's" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
-  rel="stylesheet"
-  />
-  <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="This barber shop website's main purpose is to provide an easy convenient way to book a haircut at Philip's Cut's" />
+    <script src="carousel.js" defer></script>
     <script src="index.js" defer></script>
-    <title>Philips Cuts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+    rel="stylesheet"
+    />
+    <script
+    src="https://kit.fontawesome.com/00a370235d.js"
+    crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Philips Cuts (Dev)</title>
   </head>
   <body>
     <!-- NAVBAR -->
@@ -94,8 +97,7 @@
             <p class="text-center services-card-p">
               llis efficitur placerat. Phasellus at erat imperdiet, ultricies odio
               volutpat, tristique neque. Phasellus at erat imperdiet, ultricies
-              odio volutpat, tristique neque.
-            </p>
+              odio volutpat, tristique neque.            </p>
           </div>
           <div class="services-card-layer services-card-lower-layer"></div>
         </div>
@@ -162,13 +164,10 @@
       <span id="about-section-linked"></span>
       <h2 class="about-header text-center">Meet Philip</h2>
       <p class="about-p">
-        Nulla quam est, elementum vitae est non, interdum commodo libero. In
-        convallis efficitur placerat. Phasellus at erat imperdiet, ultricies
-        odio volutpat, tristique neque. Nam a ex lacinia, vestibulum mi quis,
-        consequat lorem. Nam vestibulum sapien rhoncus, condimentum justo sit
-        amet, interdum massa. Proin sit amet enim sed diam euismod fermentum.
-        Morbi gravida, turpis eu ultricies dapibus, mi leo egestas nisi, non
-        ultrices nibh purus ac velit.
+        Philip&#39s Cuts is a multicultural barber shop in Russellville, AR. I&#39ve been in business for over 10 years and I&#39ve had the pleasure of trimming and shaping the heads of hundreds, if not thousands of wonderful people. I take pride in my work, and people seem to notice - maybe I&#39m doing something right. <br> <br> 
+        That said, I owe all my success to the community and God above. Here&#39s to another decade of great service and fair prices.<br>
+        <br>See you soon,<br>
+        Philip
       </p>
     </section>
    
@@ -180,17 +179,281 @@
       alt="Blue Razor"
       width="87"
       height="142"
-      style="
-        transform: rotate(231deg);
-      "
+      style="transform: rotate(231deg);"
       />
-      <section class="customer-reviews-section">
+
+      <div class="customer-review-section-carousel-wrap">
+        <div class="carousel">
+          <h2 class="carousel__header customer-review-section-header">Customer Reviews</h2>
+          <ul class="carousel__track">
+            <li class="carousel__page carousel-card-4 clone track__end-clone">
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  He did a fantastic job. I will start using him from now on.
+                </p>
+                <p class="customer-review-name">Dalton Ford</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  Great price. Very consistent. Good guy. I highly recommend.
+ 
+                </p>
+                <p class="customer-review-name">Michael Cude</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  My barber. Good haircut.  Good atmosphere.
+                </p>
+                <p class="customer-review-name">Frank Foster</p>
+              </div>
+            </li>
+            <li
+              class="carousel__page carousel-card-1 track__start-original carousel__page-current"
+            >
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  My boyfriend always gets his haircut here. It's clean and he does an outstanding job. He's a nice man.
+                </p>
+                <p class="customer-review-name">Debra Todd</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  This is one of the best haircuts and beard trims I have ever had. Thank you Philip. Go check him out.
+                </p>
+                <p class="customer-review-name">Joshua Toben</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  I highly recommend this barbershop! Always a friendly environment with high quality cuts at reasonable prices.
+                </p>
+                <p class="customer-review-name">Caleb McCutcheon</p>
+              </div>
+            </li>
+            <li class="carousel__page carousel-card-2">
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  Phillip is very precise and takes pride in giving a great haircut and beard trim. Highly recommend.
+                </p>
+                <p class="customer-review-name">Joe Davis</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  Best hair cuts ever. The barber is well versed in hair styles and types. Great prices as well.
+                </p>
+                <p class="customer-review-name">Justin Smith</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  Does an awesome job on my two boys. He did so good on my son's first haircut for his first birthday.
+
+                </p>
+                <p class="customer-review-name">Amber Sanford</p>
+              </div>
+            </li>
+            <li class="carousel__page carousel-card-3">
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  Best hair cut I've had. I'm not just saying that. It was very quick too!
+                </p>
+                <p class="customer-review-name">B.</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  He is the only barber I’ve used for years and the only one that I recommend.
+
+                </p>
+                <p class="customer-review-name">Josiah Holland</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  Great place! First time here but first impression...nice guy with great clipper, skills, and personality.
+
+                </p>
+                <p class="customer-review-name">AXY</p>
+              </div>
+            </li>
+            <li class="carousel__page carousel-card-4 track__end-original">
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  He did a fantastic job. I will start using him from now on.
+                </p>
+                <p class="customer-review-name">Dalton Ford</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  Great price. Very consistent. Good guy. I highly recommend.
+ 
+                </p>
+                <p class="customer-review-name">Michael Cude</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  My barber. Good haircut.  Good atmosphere.
+                </p>
+                <p class="customer-review-name">Frank Foster</p>
+              </div>
+            </li>
+            <li class="carousel__page carousel-card-1 clone track__start-clone">
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  My boyfriend always gets his haircut here. It's clean and he does an outstanding job. He's a nice man.
+                </p>
+                <p class="customer-review-name">Debra Todd</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  This is one of the best haircuts and beard trims I have ever had. Thank you Philip. Go check him out.
+                </p>
+                <p class="customer-review-name">Joshua Toben</p>
+              </div>
+              <div class="carousel__track-review-card">
+                <img
+                class="yellow-stars-5"
+                src="./images/yellow-stars-5.png"
+                width="210"
+                height="32"
+                alt="Yellow Star"
+                />
+                <p class="customer-review-p">
+                  I highly recommend this barbershop! Always a friendly environment with high quality cuts at reasonable prices.
+                </p>
+                <p class="customer-review-name">Caleb McCutcheon</p>
+              </div>
+            </li>
+          </ul>
+          <button class="carousel__btn carousel__btn-left">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button class="carousel__btn carousel__btn-right">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- <section class="customer-reviews-section">
         <h2 class="customer-review-section-header text-center">
           Customer Reviews
         </h2>
         <div class="customer-review-cards-wrap">
-
-        
           <div class="customer-review-card">
             <div class="customer-review-stars">
               <img
@@ -237,6 +500,7 @@
           </div>
 
           <div class="customer-review-card">
+
             <div class="customer-review-stars">
               <img
               class="yellow-star"
@@ -325,7 +589,7 @@
             <p class="customer-review-name">John Snow</p>
           </div>
         </div>
-      </section>
+      </section> -->
       <img
       class="red-brush"
       src="./images/barber-icons/red-face-brush.svg"
@@ -616,3 +880,5 @@
   </body>
 </html>
 
+<!-- RETURN NOTES -->
+<!-- installed carousel / review section. actual carousel ul goes in next -->
