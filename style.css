@@ -569,6 +569,7 @@ h3 {
   -webkit-border-radius: 5px;
   font-size: 1rem;
   background: transparent;
+  color: var(--off-black);
 }
 
 .carousel__btn-left {
