@@ -246,6 +246,7 @@ h3 {
   width: 129px;
   height: 41px;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
   letter-spacing: 1px;
 }
 
@@ -300,6 +301,7 @@ h3 {
   height: 275px;
   width: 325px;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 .services-card-upper-layer {
   position: relative;
@@ -432,6 +434,7 @@ h3 {
   margin: 0 auto;
   max-width: 600px;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
   /* filter: drop-shadow(-2px 4px 4px rgba(0, 0, 0, 0.25)); */
   box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
@@ -456,6 +459,7 @@ h3 {
   background: var(--off-white);
   margin: 0 auto 2rem;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
   text-align: center;
   padding: 0 1rem;
   display: flex;
@@ -542,6 +546,7 @@ h3 {
   cursor: pointer;
   border: none;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
   font-size: 1rem;
   background: transparent;
 }
@@ -573,6 +578,7 @@ h3 {
   -moz-box-shadow: -2px 4px 4px rgb(0 0 0 / 25%);
 
   border-radius: 5px;
+  -webkit-border-radius: 5px;
 
   padding: 2rem 1rem;
   display: flex;
@@ -693,6 +699,7 @@ h3 {
   transform: translate(-50%, 0);
   width: 312px;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
   background: white;
   margin-top: 5rem;
   padding: 4rem 2rem 1rem;
@@ -791,9 +798,9 @@ h3 {
   width: 95%;
   margin: 0 auto;
   border-radius: 5px;
+  -webkit-border-radius: 5px;
   position: relative;
   max-width: 600px;
-  border-radius: 5px;
 }
 
 .nav-mobile ul {
@@ -895,6 +902,7 @@ h3 {
     width: 185px;
     height: 59px;
     border-radius: 5px;
+    -webkit-border-radius: 5px;
   }
 
   .blue-razor-face {
