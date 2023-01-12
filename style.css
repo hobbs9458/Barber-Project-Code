@@ -586,8 +586,14 @@ h3 {
 }
 
 .carousel__btn:hover {
-  color: rgb(190, 190, 190);
-  cursor: pointer;
+    color: rgb(190, 190, 190);
+    cursor: pointer;
+}
+
+@media (pointer:none), (pointer:coarse) {
+  .carousel__btn:hover {
+    color: var(--off-black);
+    cursor: none;
 }
 
 .carousel__track-review-card {
