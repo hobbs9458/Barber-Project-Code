@@ -549,7 +549,6 @@ h3 {
 }
 
 .carousel__btn:hover {
-  background: rgb(179, 177, 177);
   color: rgb(190, 190, 190);
   cursor: pointer;
 }
