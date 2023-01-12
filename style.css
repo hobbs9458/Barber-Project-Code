@@ -417,6 +417,9 @@ h3 {
   max-width: 600px;
   margin: 0 auto;
   position: relative;
+  /* ADDING RADIUS FOR MOBILE TESTING. BORDER RADIUS IS TOGGLING ON CAROUSEL MOVEMENT */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .blue-razor-review {
@@ -502,12 +505,18 @@ h3 {
   /* height: 710px; */
   height: 100%;
   margin: 0 auto;
+  /* ADDING RADIUS FOR MOBILE TESTING. BORDER RADIUS IS TOGGLING ON CAROUSEL MOVEMENT */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .carousel__track {
   position: relative;
   height: 100%;
   list-style-type: none;
+  /* ADDING RADIUS FOR MOBILE TESTING. BORDER RADIUS IS TOGGLING ON CAROUSEL MOVEMENT */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .carousel__page {
@@ -524,6 +533,9 @@ h3 {
   width: 100%;
   background: white;
   padding-top: 6rem;
+  /* ADDING RADIUS FOR MOBILE TESTING. BORDER RADIUS IS TOGGLING ON CAROUSEL MOVEMENT */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 /* THIS IS NOT BEING USED */
