@@ -432,9 +432,10 @@ h3 {
   margin: 0 auto;
   max-width: 600px;
   border-radius: 5px;
-  filter: drop-shadow(-2px 4px 4px rgba(0, 0, 0, 0.25));
-  filter: -webkit-drop-shadow(-2px 4px 4px rgba(0, 0, 0, 0.25));
-  filter: -moz-drop-shadow(-2px 4px 4px rgba(0, 0, 0, 0.25));
+  /* filter: drop-shadow(-2px 4px 4px rgba(0, 0, 0, 0.25)); */
+  box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
   overflow-x: hidden;
 }
 
