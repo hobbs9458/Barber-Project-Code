@@ -411,7 +411,7 @@ h3 {
 
 /* CUSTOMER REVIEWS */
 
-.review-wrapper {
+.review-section {
   grid-column: 1 / -1;
   width: 100%;
   max-width: 600px;
@@ -444,6 +444,9 @@ h3 {
   -moz-box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
   /* overflow-x: hidden; */
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .customer-review-section-header {
@@ -502,12 +505,15 @@ h3 {
 .carousel {
   position: relative;
   min-width: 365px;
+  width: 100%;
   /* height: 710px; */
   height: 100%;
   margin: 0 auto;
   /* ADDING RADIUS FOR MOBILE TESTING. BORDER RADIUS IS TOGGLING ON CAROUSEL MOVEMENT */
   border-radius: 5px;
   -webkit-border-radius: 5px;
+  height: 97%;
+  /* border: 2px solid blue; */
 }
 
 .carousel__track {
@@ -532,7 +538,7 @@ h3 {
   height: 100%;
   width: 100%;
   background: white;
-  padding-top: 6rem;
+  padding-top: 5rem;
   /* ADDING RADIUS FOR MOBILE TESTING. BORDER RADIUS IS TOGGLING ON CAROUSEL MOVEMENT */
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -947,7 +953,7 @@ h3 {
   }
 
   .carousel__page {
-    padding-top: 6rem;
+    padding-top: 5.5rem;
   }
 
   .yellow-stars-5 {
@@ -1027,7 +1033,7 @@ h3 {
     max-width: 750px;
   }
 
-  .review-wrapper {
+  .review-section {
     max-width: 1440px;
   }
   /* .carousel {
