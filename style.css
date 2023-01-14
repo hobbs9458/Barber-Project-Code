@@ -294,6 +294,7 @@ h3 {
 
 .services-card-header {
   font-size: 18px;
+  color: var(--off-white);
 }
 
 .services-card-layer {
@@ -317,6 +318,19 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+.services-card-1 {
+  background: url("./images/services-section/haircut-service.jpg") no-repeat;
+}
+
+.services-card-2 {
+  background: url("./images/services-section/beard-service.jpg") no-repeat;
+}
+
+.services-card-3 {
+  background: url("./images/services-section/design-service.jpg") no-repeat;
+}
+
 .services-card-lower-layer {
   position: absolute;
   top: 10px;
@@ -576,13 +590,13 @@ h3 {
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  left: 0;
+  left: -0.7%;
 }
 .carousel__btn-right {
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  right: 0;
+  right: -0.7%;
 }
 
 .carousel__btn:hover {
@@ -1042,7 +1056,7 @@ h3 {
   }
 
   .review-section {
-    max-width: 1440px;
+    max-width: 1175px;
   }
   /* .carousel {
     display: flex;
@@ -1132,6 +1146,19 @@ h3 {
 
   .footer-li {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 1235px) {
+  .carousel__btn-left {
+    left: 0;
+  }
+  .carousel__btn-right {
+    right: 0;
+  }
+
+  .review-section {
+    max-width: 1440px;
   }
 }
 
