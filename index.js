@@ -57,5 +57,3 @@ navModalBookingBtn.addEventListener("keyup", (e) => {
     closeOverlay();
   }
 });
-
-// NEED TO OPTIMIZE ACCESSIBILITY. ESCAPE ALL NECESSARY CHARS. FINISH THE SERVICES SECTION.
