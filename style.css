@@ -28,8 +28,8 @@ body {
 }
 
 html {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: var(--off-black);
 }
 
@@ -56,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -75,7 +75,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 600;
 }
@@ -166,7 +166,7 @@ h3 {
 
 .nav-list li .nav-link:hover::after,
 .footer-ul .footer-li a:hover::after {
-  content: "";
+  content: '';
   width: 100%;
   height: 2px;
   background: var(--off-white);
@@ -199,7 +199,7 @@ h3 {
 .hero-section {
   height: calc(100vh + 30px);
   width: 100%;
-  background-image: url("./images/optimized/hero-small-493w.jpg");
+  background-image: url('./images/optimized/hero-small-493w.jpg');
   background-color: #1e1e1e;
   background-repeat: no-repeat;
   grid-column: 1/-1;
@@ -230,7 +230,7 @@ h3 {
 }
 .hero-subheader {
   margin-bottom: 1.5rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .book-btn-mobile,
@@ -238,7 +238,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 16px;
   color: white;
@@ -320,15 +320,15 @@ h3 {
 }
 
 .services-card-1 {
-  background: url("./images/services-section/haircut-service.jpg") no-repeat;
+  background: url('./images/services-section/haircut-service.jpg') no-repeat;
 }
 
 .services-card-2 {
-  background: url("./images/services-section/beard-service.jpg") no-repeat;
+  background: url('./images/services-section/beard-service.jpg') no-repeat;
 }
 
 .services-card-3 {
-  background: url("./images/services-section/design-service.jpg") no-repeat;
+  background: url('./images/services-section/design-service.jpg') no-repeat;
 }
 
 .services-card-lower-layer {
@@ -388,7 +388,7 @@ h3 {
   grid-column: 1 / -1;
   position: relative;
   min-height: 500px;
-  background-image: url("./images/optimized/about-834w.jpg");
+  background-image: url('./images/optimized/about-834w.jpg');
   background-position-x: -100px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -648,7 +648,7 @@ h3 {
 .contact-section {
   padding-top: 2rem;
   grid-column: 1 / -1;
-  background-image: url("./images/optimized/contact-375w.jpg");
+  background-image: url('./images/optimized/contact-375w.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -763,8 +763,8 @@ h3 {
 .privacy-and-terms-sub-header {
   font-size: 16px;
   font-weight: 700;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0.5rem auto;
 }
 
@@ -778,7 +778,7 @@ h3 {
 }
 
 .definitions-li:before {
-  content: "•";
+  content: '•';
   font-size: 80%;
   font-weight: bold;
   display: inline-block;
@@ -861,7 +861,7 @@ h3 {
 .nav-mobile ul li a {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0 auto;
   display: inline-block;
 }
@@ -906,7 +906,13 @@ h3 {
   }
   .hero-section {
     padding-left: 2rem;
-    background-image: url("./images/optimized/hero-medium-834w.jpg");
+    background-image: url('./images/optimized/hero-medium-834w.jpg');
+  }
+}
+
+@media (min-width: 555px) {
+  .hero-main-component {
+    margin-left: 0;
   }
 }
 
@@ -927,7 +933,7 @@ h3 {
     align-items: center;
     justify-content: space-between;
     color: white;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .nav-list li {
@@ -1012,11 +1018,11 @@ h3 {
   }
 
   .hero-section {
-    background-image: url("./images/optimized/hero-medium-1440w.jpg");
+    background-image: url('./images/optimized/hero-medium-1440w.jpg');
   }
 
   .contact-section {
-    background-image: url("./images/optimized/contact-834w.jpg");
+    background-image: url('./images/optimized/contact-834w.jpg');
   }
 
   .privacy-and-terms-card {
@@ -1038,7 +1044,7 @@ h3 {
     margin-left: 6rem;
   }
   .hero-section {
-    background-image: url("./images/optimized/hero-large-2002w.jpg");
+    background-image: url('./images/optimized/hero-large-2002w.jpg');
     background-position-y: 0px;
   }
 
@@ -1107,7 +1113,7 @@ h3 {
   }
 
   .about-container {
-    background-image: url("./images/optimized/about-1440w.jpg");
+    background-image: url('./images/optimized/about-1440w.jpg');
   }
 
   .customer-review-section-carousel-wrap {
