@@ -642,7 +642,7 @@ h3 {
 }
 
 .google-review-msg {
-  margin: 0 auto 0.5rem;
+  margin: 0 auto 0.8rem;
   font-size: 0.8rem;
 }
 
@@ -711,6 +711,16 @@ h3 {
 
 .btn-contact {
   margin: 2rem 0 2.5rem 15%;
+}
+
+.hours-msg {
+  /* font-size: 0.8rem; */
+  margin: 0.8rem 0 0 15%;
+}
+
+.hr {
+  width: 65%;
+  margin: 1rem 0 0 15%;
 }
 
 /* map */
