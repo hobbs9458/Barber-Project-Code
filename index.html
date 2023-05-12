@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Logan Hobbs" />
-    <meta name="description" content="This barber shop website's main purpose is to provide an easy convenient way to book a haircut at Philip's Cut's" />
+    <meta
+      name="description"
+      content="This barber shop website's main purpose is to provide an easy convenient way to book a haircut at Philip's Cut's"
+    />
     <script src="carousel.js" defer></script>
     <script src="index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
     />
     <script
-    src="https://kit.fontawesome.com/00a370235d.js"
-    crossorigin="anonymous"
+      src="https://kit.fontawesome.com/00a370235d.js"
+      crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
 
-      <title>Philips Cuts (Dev)</title>
+    <title>Philips Cuts (Dev)</title>
   </head>
   <body>
     <!-- NAVBAR -->
@@ -29,11 +32,13 @@
         <a href="#home-hero-section">
           <div class="logo-wrap">
             <img
-              srcset="./images/logo-mobile-149w.svg 149w, ./images/logo-xl-229w.svg 229w"
+              srcset="
+                ./images/logo-mobile-149w.svg 149w,
+                ./images/logo-xl-229w.svg     229w
+              "
               sizes="(max-width: 824px) 149px, 229px"
               src="./images/logo-xl-229w"
               alt="Philip's Cuts Logo"
-       
             />
           </div>
         </a>
@@ -47,13 +52,25 @@
             tabindex="0"
             ;
           />
-      </button>
+        </button>
         <!-- ul FOR THE TABLET AND DESKTOP VERSION -->
         <ul class="nav-list">
           <li><a class="nav-link" href="#services-section">Services</a></li>
           <li><a class="nav-link" href="#about-section-linked">About</a></li>
-          <li><a class="nav-link" href="#contact-section-linked">Contact</a></li>
-          <li><a class="book-btn-large" href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact" target="_blank">Book Now</a></li>
+          <li>
+            <a class="nav-link" href="#contact-section-linked">Contact</a>
+          </li>
+          <li>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li>
+            <a
+              class="book-btn-large"
+              href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact"
+              target="_blank"
+              >Book Now</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
@@ -63,7 +80,12 @@
         <div class="hero-main-component">
           <h1 class="hero-header">Philip&#39;s Cuts Barber Shop</h1>
           <p class="hero-subheader">Book your appointment today</p>
-          <a class="book-btn-mobile" href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact" target="_blank">Book Now </a>
+          <a
+            class="book-btn-mobile"
+            href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact"
+            target="_blank"
+            >Book Now
+          </a>
         </div>
       </div>
     </section>
@@ -77,11 +99,13 @@
         height="161"
         style="transform: rotate(180deg) scaleY(-1)"
       />
-      
-      <h2  class="services-header">Barber Services</h2>
+
+      <h2 class="services-header">Barber Services</h2>
       <div class="services-cards-wrap">
         <div class="services-card">
-          <div class="services-card-layer services-card-upper-layer services-card-1">
+          <div
+            class="services-card-layer services-card-upper-layer services-card-1"
+          >
             <img
               src="./images/barber-icons/white-scissors.svg"
               class="services-card-icon scissors-icon"
@@ -91,17 +115,15 @@
               style="transform: rotate(45deg)"
               ;
             />
-            <h2
-              class="services-card-header text-center"
-            >
-              Haircuts
-            </h2>
+            <h2 class="services-card-header text-center">Haircuts</h2>
           </div>
           <div class="services-card-layer services-card-lower-layer"></div>
         </div>
 
         <div class="services-card">
-          <div class="services-card-layer services-card-upper-layer services-card-2">
+          <div
+            class="services-card-layer services-card-upper-layer services-card-2"
+          >
             <img
               src="./images/barber-icons/moustache-white.svg"
               class="services-card-icon moustache-icon"
@@ -110,16 +132,14 @@
               height="39"
               ;
             />
-            <h2
-              class="services-card-header text-center"
-            >
-              Beard Trims
-            </h2>
+            <h2 class="services-card-header text-center">Beard Trims</h2>
           </div>
           <div class="services-card-layer services-card-lower-layer"></div>
         </div>
         <div class="services-card">
-          <div class="services-card-layer services-card-upper-layer services-card-3">
+          <div
+            class="services-card-layer services-card-upper-layer services-card-3"
+          >
             <img
               class="services-card-icon electric-razor-icon"
               src="./images/barber-icons/razor-white.svg"
@@ -129,11 +149,7 @@
               style="transform: rotate(90deg)"
               ;
             />
-            <h2
-              class="services-card-header text-center"
-            >
-              Designs
-            </h2>
+            <h2 class="services-card-header text-center">Designs</h2>
           </div>
           <div class="services-card-layer services-card-lower-layer"></div>
         </div>
@@ -152,36 +168,44 @@
       <span id="about-section-linked"></span>
       <h2 class="about-header text-center">Meet Philip</h2>
       <p class="about-p">
-        Philip&#39s Cuts is a barber shop located in Russellville, AR. I&#39ve been in business for over 10 years and I&#39ve had the pleasure of trimming and shaping the heads of hundreds, if not thousands of wonderful people. I take pride in my work, and people seem to notice - maybe I&#39m doing something right. <br> <br> 
-        That said, I owe all my success to the community and God above. Here&#39s to another decade of great service and fair prices.<br>
-        <br>See you soon,<br>
+        Philip&#39;s Cuts is a barber shop located in Russellville, AR. I&#39;ve
+        been in business for over 10 years and I&#39;ve had the pleasure of
+        trimming and shaping the heads of hundreds, if not thousands of
+        wonderful people. I take pride in my work, and people seem to notice -
+        come and see for yourself. <br />
+        <br />
+        That said, I owe all my success to the community and God above.
+        Here&#39;s to another decade of great service and fair prices.<br />
+        <br />See you soon,<br />
         Philip
       </p>
     </section>
-   
+
     <!-- reviews -->
     <section class="review-section">
       <img
-      class="blue-razor-review"
-      src="./images/barber-icons/blue-razor.svg"
-      alt="Blue Razor"
-      width="87"
-      height="142"
-      style="transform: rotate(231deg);"
+        class="blue-razor-review"
+        src="./images/barber-icons/blue-razor.svg"
+        alt="Blue Razor"
+        width="87"
+        height="142"
+        style="transform: rotate(231deg)"
       />
 
       <div class="customer-review-section-carousel-wrap">
         <div class="carousel">
-          <h2 class="carousel__header customer-review-section-header">Customer Reviews</h2>
+          <h2 class="carousel__header customer-review-section-header">
+            Customer Reviews
+          </h2>
           <ul class="carousel__track">
             <li class="carousel__page carousel-card-4 clone track__end-clone">
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
                   He did a fantastic job. I will start using him from now on.
@@ -190,28 +214,27 @@
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
                   Great price. Very consistent. Good guy. I highly recommend.
- 
                 </p>
                 <p class="customer-review-name">Michael Cude</p>
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  My barber. Good haircut.  Good atmosphere.
+                  My barber. Good haircut. Good atmosphere.
                 </p>
                 <p class="customer-review-name">Frank Foster</p>
               </div>
@@ -221,40 +244,43 @@
             >
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  My boyfriend always gets his haircut here. It's clean and he does an outstanding job. He's a nice man.
+                  My boyfriend always gets his haircut here. It's clean and he
+                  does an outstanding job. He's a nice man.
                 </p>
                 <p class="customer-review-name">Debra Todd</p>
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  This is one of the best haircuts and beard trims I have ever had. Thank you Philip. Go check him out.
+                  This is one of the best haircuts and beard trims I have ever
+                  had. Thank you Philip. Go check him out.
                 </p>
                 <p class="customer-review-name">Joshua Toben</p>
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  I highly recommend this barbershop! Always a friendly environment with high quality cuts at reasonable prices.
+                  I highly recommend this barbershop! Always a friendly
+                  environment with high quality cuts at reasonable prices.
                 </p>
                 <p class="customer-review-name">Caleb McCutcheon</p>
               </div>
@@ -262,41 +288,43 @@
             <li class="carousel__page carousel-card-2">
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  Phillip is very precise and takes pride in giving a great haircut and beard trim. Highly recommend.
+                  Phillip is very precise and takes pride in giving a great
+                  haircut and beard trim. Highly recommend.
                 </p>
                 <p class="customer-review-name">Joe Davis</p>
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  Best hair cuts ever. The barber is well versed in hair styles and types. Great prices as well.
+                  Best hair cuts ever. The barber is well versed in hair styles
+                  and types. Great prices as well.
                 </p>
                 <p class="customer-review-name">Justin Smith</p>
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  Does an awesome job on my two boys. He did so good on my son's first haircut for his first birthday.
-
+                  Does an awesome job on my two boys. He did so good on my son's
+                  first haircut for his first birthday.
                 </p>
                 <p class="customer-review-name">Amber Sanford</p>
               </div>
@@ -304,42 +332,43 @@
             <li class="carousel__page carousel-card-3">
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  Best hair cut I&#39;ve had. I&#39;m not just saying that. It was very quick too!
+                  Best hair cut I&#39;ve had. I&#39;m not just saying that. It
+                  was very quick too!
                 </p>
                 <p class="customer-review-name">B.</p>
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  He is the only barber I&#39;ve used for years and the only one that I recommend.
-
+                  He is the only barber I&#39;ve used for years and the only one
+                  that I recommend.
                 </p>
                 <p class="customer-review-name">Josiah Holland</p>
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  Great place! First time here but first impression...nice guy with great clipper, skills, and personality.
-
+                  Great place! First time here but first impression...nice guy
+                  with great clipper, skills, and personality.
                 </p>
                 <p class="customer-review-name">AXY</p>
               </div>
@@ -347,11 +376,11 @@
             <li class="carousel__page carousel-card-4 track__end-original">
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
                   He did a fantastic job. I will start using him from now on.
@@ -360,28 +389,27 @@
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
                   Great price. Very consistent. Good guy. I highly recommend.
- 
                 </p>
                 <p class="customer-review-name">Michael Cude</p>
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  My barber. Good haircut.  Good atmosphere.
+                  My barber. Good haircut. Good atmosphere.
                 </p>
                 <p class="customer-review-name">Frank Foster</p>
               </div>
@@ -389,62 +417,79 @@
             <li class="carousel__page carousel-card-1 clone track__start-clone">
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  My boyfriend always gets his haircut here. It&#39;s clean and he does an outstanding job. He&#39;s a nice man.
+                  My boyfriend always gets his haircut here. It&#39;s clean and
+                  he does an outstanding job. He&#39;s a nice man.
                 </p>
                 <p class="customer-review-name">Debra Todd</p>
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  This is one of the best haircuts and beard trims I have ever had. Thank you Philip. Go check him out.
+                  This is one of the best haircuts and beard trims I have ever
+                  had. Thank you Philip. Go check him out.
                 </p>
                 <p class="customer-review-name">Joshua Toben</p>
               </div>
               <div class="carousel__track-review-card">
                 <img
-                class="yellow-stars-5"
-                src="./images/yellow-stars-5-small.png"
-                width="210"
-                height="32"
-                alt="Yellow Star"
+                  class="yellow-stars-5"
+                  src="./images/yellow-stars-5-small.png"
+                  width="210"
+                  height="32"
+                  alt="Yellow Star"
                 />
                 <p class="customer-review-p">
-                  I highly recommend this barbershop! Always a friendly environment with high quality cuts at reasonable prices.
+                  I highly recommend this barbershop! Always a friendly
+                  environment with high quality cuts at reasonable prices.
                 </p>
                 <p class="customer-review-name">Caleb McCutcheon</p>
               </div>
             </li>
           </ul>
-          <button class="carousel__btn carousel__btn-left" aria-label="left arrow">
+          <button
+            class="carousel__btn carousel__btn-left"
+            aria-label="left arrow"
+          >
             <i class="fa-solid fa-arrow-left"></i>
           </button>
-          <button class="carousel__btn carousel__btn-right" aria-label="right arrow">
+          <button
+            class="carousel__btn carousel__btn-right"
+            aria-label="right arrow"
+          >
             <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
-        <p class="google-review-msg">Reviews sourced from Google Business Profile</p> 
+        <a
+          class="book-btn-large review-btn"
+          href="https://www.google.com/search?q=philips+cuts+russellville+ar&rlz=1C1CHBF_enUS866US866&oq=p&aqs=chrome.0.35i39i355i650j46i39i175i199i650j69i64j69i57j69i61j69i60l3.1174j0j7&sourceid=chrome&ie=UTF-8#lrd=0x87cc536e80ee0837:0xa58274a4214dd9e5,3,,,,"
+          target="_blank"
+          >Leave a Review</a
+        >
+        <p class="google-review-msg">
+          Reviews sourced from Google Business Profile
+        </p>
       </div>
 
       <img
-      class="red-brush"
-      src="./images/barber-icons/red-face-brush.svg"
-      alt="Red Face Brush"
-      width="72"
-      height="175"
-      style="transform: rotate(130deg);"
+        class="red-brush"
+        src="./images/barber-icons/red-face-brush.svg"
+        alt="Red Face Brush"
+        width="72"
+        height="175"
+        style="transform: rotate(130deg)"
       />
     </section>
     <!-- Contact -->
@@ -452,71 +497,99 @@
       <span id="contact-section-linked"></span>
       <section class="contact-section">
         <div class="contact-text-container">
-          <p class="location">Location:
-              <address class="address">701 E Main St suite #7,<br>
-              Russellville, AR 72801</address>
+          <p class="location">Location:</p>
+          <address class="address">
+            701 E Main St suite #7,
+            <br />
+            Russellville, AR 72801
+          </address>
+          <p class="phone">
+            <span class="phone-text">Phone:</span><br />479-747-5016
           </p>
-          <p class="phone"><span class="phone-text">Phone:</span><br>479-747-5016</p>
           <table class="hours-table">
-              <thead>
-                  <tr>
-                      <th class="hours-table-header" colspan="2">Hours of Operation:</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr class="hours-table-row">
-                      <td class="hours-table-data">Monday</td>
-                      <td class="hours-table-data">Closed</td>
-                  </tr>
-                  <tr class="hours-table-row">
-                      <td class="hours-table-data">Tuesday</td>
-                      <td class="hours-table-data">Closed</td>
-                  </tr>
-                  <tr class="hours-table-row">
-                      <td class="hours-table-data">Wednesday</td>
-                      <td class="hours-table-data">8:30am-5:00pm</td>
-                  </tr>
-                  <tr class="hours-table-row">
-                      <td class="hours-table-data">Thursday</td>
-                      <td class="hours-table-data">8:30am-5:00pm</td>
-                  </tr>
-                  <tr class="hours-table-row">
-                      <td class="hours-table-data">Friday</td>
-                      <td class="hours-table-data">8:00am-5:00pm</td>
-                  </tr>
-                  <tr class="hours-table-row">
-                      <td class="hours-table-data">Saturday</td>
-                      <td class="hours-table-data">7:00am-12:00pm</td>
-                  </tr>
-                  <tr class="hours-table-row">
-                      <td class="hours-table-data">Sunday</td>
-                      <td class="hours-table-data">Closed</td>
-                  </tr>
-              </tbody>
+            <thead>
+              <tr>
+                <th class="hours-table-header" colspan="2">
+                  Hours of Operation:
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="hours-table-row">
+                <td class="hours-table-data">Monday</td>
+                <td class="hours-table-data">Closed</td>
+              </tr>
+              <tr class="hours-table-row">
+                <td class="hours-table-data">Tuesday</td>
+                <td class="hours-table-data">Closed</td>
+              </tr>
+              <tr class="hours-table-row">
+                <td class="hours-table-data">Wednesday</td>
+                <td class="hours-table-data">8:30am-5:00pm</td>
+              </tr>
+              <tr class="hours-table-row">
+                <td class="hours-table-data">Thursday</td>
+                <td class="hours-table-data">8:30am-5:00pm</td>
+              </tr>
+              <tr class="hours-table-row">
+                <td class="hours-table-data">Friday</td>
+                <td class="hours-table-data">8:00am-5:00pm</td>
+              </tr>
+              <tr class="hours-table-row">
+                <td class="hours-table-data">Saturday</td>
+                <td class="hours-table-data">7:00am-12:00pm</td>
+              </tr>
+              <tr class="hours-table-row">
+                <td class="hours-table-data">Sunday</td>
+                <td class="hours-table-data">Closed</td>
+              </tr>
+            </tbody>
           </table>
-          <hr class="hr">
-          <p class="hours-msg">Walk-ins are not currently available. 
-            <br>
-            Services are by appointment only. </p>
-          <a class="book-btn-mobile btn-contact" href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact" target="_blank">Book Now </a>
+          <hr class="hr" />
+          <p class="hours-msg">
+            Appointments are preferred.
+            <br />
+            Walk-ins available only if time allows.
+            <br />
+            We accept cash only.
+          </p>
+          <a
+            class="book-btn-mobile btn-contact"
+            href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact"
+            target="_blank"
+            >Book Now
+          </a>
         </div>
       </section>
       <!-- map -->
-      <iframe title="map" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.0958742120615!2d-93.12737708475215!3d35.27874248029023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cc536e80ee0837%3A0xa58274a4214dd9e5!2sPhilip&#39;s%20Cuts!5e0!3m2!1sen!2sus!4v1670822972028!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe
+        title="map"
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.0958742120615!2d-93.12737708475215!3d35.27874248029023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cc536e80ee0837%3A0xa58274a4214dd9e5!2sPhilip&#39;s%20Cuts!5e0!3m2!1sen!2sus!4v1670822972028!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
-    
+
     <footer class="footer">
-        <ul class="footer-ul">
-            <li class="footer-li"><a href="#services-section">Services</a></li>
-            <li class="footer-li"><a href="#about-section-linked">About</a></li>
-            <li class="footer-li privacy-modal-link"><a href="#">Terms</a></li>
-        </ul>
+      <ul class="footer-ul">
+        <li class="footer-li"><a href="#services-section">Services</a></li>
+        <li class="footer-li"><a href="#about-section-linked">About</a></li>
+        <li class="footer-li privacy-modal-link"><a href="#">Terms</a></li>
+      </ul>
     </footer>
     <!-- OVERLAY -->
     <div class="modal-overlay hidden">
       <!-- PRIVACY POLICY AND TERMS MODAL CARD -->
-      <div class="modal-card privacy-and-terms-card hidden" role="dialog"
-      aria-modal="true" >
+      <div
+        class="modal-card privacy-and-terms-card hidden"
+        role="dialog"
+        aria-modal="true"
+      >
         <button class="modal-closing-btn-icon close-modal-btn">
           <img
             src="./images/modal-closing-btn-icon.svg"
@@ -684,16 +757,42 @@
                   </ul>       
         </ol> -->
 
-
-        
-        <h2 class="privacy-and-terms-header">Terms and Conditions (&#34;Terms&#34;)</h2>
-        <p class="privacy-and-terms-p privacy-and-terms-last-update">Last updated: December 4, 2022</p>
-        <p class="list-privacy-p">Please read these Terms and Conditions (&#34;Terms&#34;, &#34;Terms and Conditions&#34;) carefully before using the <b style="color: red;">CLIENT URL GOES HERE</b> website operated by Philip&#39;s Cuts (&#34;us&#34;,	&#34;we&#34;, or &#34;our&#34;).</p>
-        <p class="list-privacy-p">Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
-        <p class="privacy-and-terms-p">By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.</p>
+        <h2 class="privacy-and-terms-header">
+          Terms and Conditions (&#34;Terms&#34;)
+        </h2>
+        <p class="privacy-and-terms-p privacy-and-terms-last-update">
+          Last updated: December 4, 2022
+        </p>
+        <p class="list-privacy-p">
+          Please read these Terms and Conditions (&#34;Terms&#34;, &#34;Terms
+          and Conditions&#34;) carefully before using the philipscuts.com
+          website operated by Philip&#39;s Cuts (&#34;us&#34;, &#34;we&#34;, or
+          &#34;our&#34;).
+        </p>
+        <p class="list-privacy-p">
+          Your access to and use of the Service is conditioned on your
+          acceptance of and compliance with these Terms. These Terms apply to
+          all visitors, users and others who access or use the Service.
+        </p>
+        <p class="privacy-and-terms-p">
+          By accessing or using the Service you agree to be bound by these
+          Terms. If you disagree with any part of the terms then you may not
+          access the Service.
+        </p>
         <h3 class="privacy-and-terms-sub-header">Links To Other Web Sites</h3>
-        <p class="list-privacy-p">Our Service may contain links to third-party web sites or services that are not owned or controlled by Philip&#39;s Cuts.</p>
-        <p class="list-privacy-p">Philip&#39;s Cuts has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Philip&#39;s Cuts shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+        <p class="list-privacy-p">
+          Our Service may contain links to third-party web sites or services
+          that are not owned or controlled by Philip&#39;s Cuts.
+        </p>
+        <p class="list-privacy-p">
+          Philip&#39;s Cuts has no control over, and assumes no responsibility
+          for, the content, privacy policies, or practices of any third party
+          web sites or services. You further acknowledge and agree that
+          Philip&#39;s Cuts shall not be responsible or liable, directly or
+          indirectly, for any damage or loss caused or alleged to be caused by
+          or in connection with use of or reliance on any such content, goods or
+          services available on or through any such web sites or services.
+        </p>
         <!-- <h3 class="privacy-and-terms-sub-header">Termination</h3>
         <p class="list-privacy-p">We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
         <p class="list-privacy-p">All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.</p>
@@ -701,15 +800,13 @@
         <p class="list-privacy-p">We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
         <h3 class="privacy-and-terms-sub-header">Contact Us</h3>
         <p class="list-privacy-p">If you have any questions about these Terms, please contact us.</p> -->
-        <button  class="book-btn-mobile close-modal close-modal-btn">Close</button>
-
-
+        <button class="book-btn-mobile close-modal close-modal-btn">
+          Close
+        </button>
       </div>
-            <!-- MODAL NAV MODAL CARD -->
-      <div class="modal-card modal-nav hidden"  role="dialog"
-      aria-modal="true"
-      >
-        <nav  class="nav-mobile" >
+      <!-- MODAL NAV MODAL CARD -->
+      <div class="modal-card modal-nav hidden" role="dialog" aria-modal="true">
+        <nav class="nav-mobile">
           <button class="modal-closing-btn-icon close-modal-btn mobile-x-nav">
             <img
               src="./images/barber-icons/white-x-icon-mobile.svg"
@@ -720,15 +817,31 @@
             />
           </button>
           <ul>
-            <li class="mobile-nav-li"><a class="nav-link service-link" href="#services-section">Services</a></li>
-            <li class="mobile-nav-li"><a class="nav-link" href="#about-section-linked">About</a></li>
-            <li class="mobile-nav-li"><a class="nav-link" href="#contact-section-linked">Contact</a></li>
-            <li class="mobile-nav-li"><a class="book-btn-mobile nav-modal-booking-btn" href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact" target="_blank">Book Now</a></li>
+            <li class="mobile-nav-li">
+              <a class="nav-link service-link" href="#services-section"
+                >Services</a
+              >
+            </li>
+            <li class="mobile-nav-li">
+              <a class="nav-link" href="#about-section-linked">About</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a class="nav-link" href="#contact-section-linked">Contact</a>
+            </li>
+            <li>
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a
+                class="book-btn-mobile nav-modal-booking-btn"
+                href="https://app.simplymeet.me/hobbs9458?is_widget=1&view=compact"
+                target="_blank"
+                >Book Now</a
+              >
+            </li>
           </ul>
-      </nav>
+        </nav>
       </div>
     </div>
-
   </body>
 </html>
-
