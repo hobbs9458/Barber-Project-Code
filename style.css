@@ -684,6 +684,7 @@ h3 {
   align-items: center;
 }
 
+.details-header,
 .location,
 .address,
 .phone,
@@ -696,10 +697,14 @@ h3 {
   margin: 0 auto;
   font-style: normal;
 }
-
+.details-header,
 .location,
 .phone .phone-text {
   text-decoration: underline;
+}
+
+.details-header {
+  margin-top: 1rem;
 }
 
 .address,
@@ -729,9 +734,9 @@ h3 {
   margin: 2rem 0 2.5rem 15%;
 }
 
-.hours-msg {
+.details {
   /* font-size: 0.8rem; */
-  margin: 0.8rem 0 0 15%;
+  margin: 0 0 0 15%;
   font-weight: bold;
 }
 
