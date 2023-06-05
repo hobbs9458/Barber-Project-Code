@@ -992,32 +992,6 @@ h1.gallery-header {
 
 /* 745 */
 @media (min-width: 825px) {
-  .hamburger-btn {
-    display: none;
-  }
-
-  .nav-list {
-    font-size: 20px;
-  }
-
-  .nav-list {
-    min-width: 400px;
-    margin-right: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  .nav-list li {
-    margin-left: 2.5rem;
-  }
-
-  .navbar {
-    height: 100px;
-  }
-
   .hero-main-component {
     height: 250px;
   }
@@ -1105,6 +1079,31 @@ h1.gallery-header {
 }
 
 @media (min-width: 975px) {
+  .hamburger-btn {
+    display: none;
+  }
+
+  .nav-list {
+    font-size: 20px;
+  }
+
+  .nav-list {
+    min-width: 400px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .nav-list li {
+    margin-left: 2.5rem;
+  }
+
+  .navbar {
+    height: 100px;
+  }
   .hero-max-width-wrap {
     max-width: 100%;
   }
