@@ -407,10 +407,14 @@ h3 {
   margin-bottom: 12rem;
 }
 
-#about-section-linked,
-#contact-section-linked {
+#about-section-linked {
   position: relative;
   top: -200px;
+}
+
+#contact-section-linked {
+  position: relative;
+  top: -100px;
 }
 
 .about-header,
@@ -675,7 +679,7 @@ h3 {
 }
 .contact-section {
   /* padding-top: 2rem; */
-  padding: 2rem;
+  padding: 1.5rem;
   grid-column: 1 / -1;
   background-image: url('./images/optimized/contact-375w.jpg');
   background-size: cover;
@@ -694,7 +698,7 @@ h3 {
 .hours {
   font-weight: 700;
   text-align: left;
-  width: 70%;
+  width: 85%;
   max-width: 500px;
   margin: 0 auto;
   font-style: normal;
@@ -717,7 +721,8 @@ h3 {
 .hours-table {
   margin: 0 auto;
   table-layout: fixed;
-  width: 70%;
+  /* width: 70%; */
+  width: 85%;
   max-width: 500px;
 }
 
@@ -738,8 +743,10 @@ h3 {
 
 .details {
   /* font-size: 0.8rem; */
-  margin: 0 0 0 15%;
+  /* margin: 0 0 0 7.5%; */
+  margin: 0 auto;
   font-weight: bold;
+  width: 85%;
 }
 
 .hr {
@@ -1059,6 +1066,10 @@ h1.gallery-header {
   .hours-table {
     max-width: 600px;
   }
+
+  .details {
+    margin-left: 8%;
+  }
 }
 
 @media (min-width: 865px) {
@@ -1266,6 +1277,12 @@ h1.gallery-header {
 
   .review-section {
     max-width: 1440px;
+  }
+}
+
+@media (min-width: 1285px) {
+  .details {
+    margin-left: 8%;
   }
 }
 

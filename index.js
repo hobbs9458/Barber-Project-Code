@@ -4,8 +4,6 @@ const mobileNavLinks = [...document.querySelectorAll('.nav-link')];
 const mobileXNav = document.querySelector('.mobile-x-nav');
 const navModalBookingBtn = document.querySelector('.nav-modal-booking-btn');
 const hamburgerMenuIcon = document.querySelector('.hamburger-btn');
-// const privacyModalLink = document.querySelector('.privacy-modal-link');
-const privacyAndTermsCard = document.querySelector('.privacy-and-terms-card');
 const modalOverlay = document.querySelector('.modal-overlay');
 const modalNav = document.querySelector('.modal-nav');
 
@@ -35,11 +33,6 @@ hamburgerMenuIcon.addEventListener('keyup', (e) => {
     openMobileNav();
   }
 });
-
-// privacyModalLink.addEventListener('click', (e) => {
-//   modalOverlay.classList.remove('hidden');
-//   privacyAndTermsCard.classList.remove('hidden');
-// });
 
 mobileNavLinks.forEach((navLink) => {
   navLink.addEventListener('click', closeOverlay);
